@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true" >
+
+    <ImageView
+
+        android:id="@+id/congee"
+        android:src="@drawable/congee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+
+         />
+
+    <TextView
+        android:id="@+id/congeeera"
+        android:text="Congee Era"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/congee"
+        android:padding="10dp"
+
+       />
+
+    <TextView
+        android:id="@+id/best"
+        android:text="The Best Congee in San Francisco!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/congeeera"
+        android:paddingTop="40dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:text="1042 Wolf Pen Road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/best"
+        android:paddingTop="40dp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:text="650-376-1680"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/address"
+        android:padding="10dp"  />
+
+
+</RelativeLayout>
